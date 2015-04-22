@@ -1,5 +1,5 @@
 #!/bin/bash
-export LANG=C
+export LANG=ja_JP.UTF-8
 
 # System Update
 yum -y update >& /var/log/vagrant_yum_update.log
