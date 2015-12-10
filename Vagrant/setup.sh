@@ -12,7 +12,7 @@ rm -fr /var/www/public_html
 mv /root/gittmp/Risoluto-Core/* /var/www/.
 chown -R apache.apache /var/www/*
 cd /var/www/risoluto/lib/
-curl -sS https://getcomposer.org/installer | /usr/local/php5/bin/php
-/usr/local/php5/bin/php composer.phar install -o --dev
+curl -sS https://getcomposer.org/installer | /usr/local/php7/bin/php
+/usr/local/php7/bin/php composer.phar install -o --dev
 chmod -R 777 /var/www/risoluto/data
 rm -fr /root/gittmp
